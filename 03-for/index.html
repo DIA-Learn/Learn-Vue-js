@@ -1,17 +1,17 @@
 <html>
     <head>
-        <title>Vue v-if</title>
+        <title>Vue v-for</title>
         <meta charset="UTF-8">
     </head>
 
     <body>
 
     <div id="app">
-        <div v-if="seen">이제 나를 볼 수 있어요</div>
-    </div>
-
-    <div id="app-1">
-        <div v-if="seen">지금은 나를 볼 수 없어요</div>
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo.text }}
+            </li>
+        </ol>
     </div>
 
     <script src="./src/vue.js"></script>
