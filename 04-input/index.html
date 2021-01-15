@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Vue v-on&v-model</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+
+    <div id="app">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">메시지 뒤집기</button>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="app2">
+        <p>{{ message2 }}</p>
+        <input v-model="message2">
+    </div>
+
+    <script src="./src/vue.js"></script>
+    <script src="./app.js"></script>
+    </body>
+</html>
