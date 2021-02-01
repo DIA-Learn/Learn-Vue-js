@@ -4,7 +4,7 @@
 
     <div class="form">
       <input id="InputText">
-      <button id="btn" v-on:click="button.onButton()">Click</button>
+      <button id="btn" v-on:click="onButton">Click</button>
     </div>
 
     <event-js />
